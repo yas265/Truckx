@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.active_class{
+    color: rgb(255, 0, 85);
+    border-bottom: rgb(77, 165, 42);
+}
+.card{
+    background-color: rgb(119, 114, 94);
+    padding: 2rem;
+    opacity: 1;
+    border-radius: 2rem;
+    
+}
+.corder{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    
+}
+.admin_table {
+    border: 1px solid black;
+    margin: auto;
+    border-collapse: collapse;
+
+}
+.admin_table th td{
+    background-color: cadetblue;
+    border-collapse: collapse;
+}
+
+.admin_table th tr td{
+    border: 1px solid black;
+    width: 15rem;
+    line-height: 2rem;
+    margin: auto;
+    background-color: cornsilk;
+    border-collapse: collapse;
+}
+.btn{
+    background-color: cyan;
+    
+    border-width: 0ch;
+    margin: 2px;
+    border-radius: 4px;
+    border-style: groove;
+    border-width: 1px;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.1rem 1.5rem;
+}
+.btn:hover{
+    background-color: transparent;
+    border-width: 1px;
+    cursor: pointer;
+}
+.add_btn{
+    background-color: rgb(201, 143, 19);
+    padding: 0rem 3.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 70%;
+    color: black;
+
+}
+.add_btn:hover{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: dashed;
+    cursor: pointer;
+}
+
+.form1{
+    width: 70%;
+    background-color:rgb(91, 160, 94);
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+input, select {
+    
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+
+  }
+  .heading{
+      text-align: center;
+      background-color: rgb(103, 103, 128);
+      margin: 2rem 0;
+      line-height: 4rem;
+  }
+
+  .add_user_btn{
+      width: 10rem;
+      height: 3rem;
+      background-color: burlywood;
+      border-color: crimson;
+      font-size: 1.5rem;
+  }
+  .add_user_btn:hover{
+      background-color: white;
+      cursor: pointer;
+      border-style: dotted;
+  }
+
+  .admin_btn{
+      text-decoration: none;
+      font-size: 2rem;
+      border-width: 2px;
+      border-style: groove;
+      border-color: black;
+      padding: 0 2rem;
+      margin-top: -2rem;
+      background-color: rgb(74, 235, 187);
+      float: right;
+      color:rgb(43, 18, 156);
+      border-radius: 1rem;
+  }
+  .admin_btn:hover{
+      cursor: pointer;
+      background-color:cornsilk;
+      border-color: brown;
+  }
